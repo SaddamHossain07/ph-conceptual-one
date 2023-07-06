@@ -4,7 +4,7 @@
 }
 
 .container {
-    background-color: rgb(37, 36, 36);
+    background-color: #424141;
     padding: 20px;
     color: white;
     display: flex;
@@ -23,9 +23,41 @@
 
 .menu-item {
     margin-right: 30px;
+    font-size: 17px;
 }
 
 .menu-item:hover {
     color: rgb(198, 203, 203);
     cursor: pointer;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-image: url("../images/background.png"),
+        linear-gradient(45deg, #0b0a0b, #211D20);
+
+}
+
+.hero-image img {
+    width: 300px;
+}
+
+.hero-text h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: tomato;
+    border-radius: 5px;
 }
