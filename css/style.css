@@ -3,8 +3,10 @@
     padding: 0;
 }
 
+
+
 .container {
-    background-color: #424141;
+    background-color: #363434;
     padding: 20px;
     color: white;
     display: flex;
@@ -60,4 +62,110 @@
     padding: 10px 20px;
     background-color: tomato;
     border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(199, 67, 44);
+}
+
+.title {
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.about-img {
+    width: 300px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    flex-direction: row-reverse;
+}
+
+.information {
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+.container-services {
+    height: 500px;
+    width: 100vw;
+    background-image: url("../images/background.png"), linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    padding: 50px;
+}
+
+.service-heading {
+    font-size: 55px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.col {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 105px gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.col img {
+    width: 90px;
+
+}
+
+.col h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+.col button {
+    background-color: rgb(182, 169, 169);
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #0b0a0b;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.footer-col {
+    width: 200px;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    line-height: 2rem;
+}
+
+.footer-col img {
+    width: 150px;
+}
+
+.footer-col li {
+    list-style: none;
 }
