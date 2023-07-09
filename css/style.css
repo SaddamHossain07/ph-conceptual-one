@@ -97,7 +97,7 @@
 
 .container-services {
     height: 500px;
-    width: 100vw;
+    width: 100%;
     background-image: url("../images/background.png"), linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
     padding: 50px;
 }
